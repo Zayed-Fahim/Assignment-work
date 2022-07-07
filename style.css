@@ -24,16 +24,24 @@ body{
 }
 .button-type{
     text-align: center;
-    padding-top: 150px;
-
-    
-/* ## section2 */
+    padding-top: 130px;
 }
+    
+
+/* ## section2 */
 .h1-part{
-    padding-top: 320px;
     font-weight: 900;
     font-size: 53px;
-    color: white;  
+    color: white;
+    padding-top: 320px;  
+}
+.h1-para{
+    width: 50%;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto; 
 }
 .h1-part p{
     font-weight: 600;
@@ -55,6 +63,10 @@ body{
     text-align: center;
     font-weight: 600;
     color: #707070;
+    width: 50%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .amount-part{
     display: flex;
@@ -201,7 +213,7 @@ hr{
 .part-1 h1{
     font-weight: 700;
     font-size: 45px;
-    width:60%;
+    width:50%;
     margin-top: 160px;
     margin-left: 300px;
 }
@@ -228,7 +240,7 @@ hr{
 .part-2 img {
     width: 440px;
     height: 450px;
-    margin-top: 150px;
+    margin-top: 140px;
     margin-left: 300px;
     border-radius: 5px;
 }
@@ -236,7 +248,7 @@ hr{
     font-weight: 700;
     font-size: 45px;
     width: 30%;
-    padding-top: 180px;
+    padding-top: 150px;
     padding-left:450px;
 }
 .part-2 p{
@@ -315,9 +327,11 @@ hr{
     border-radius: 10px;
 }
 input{
-    text-indent: 10px;
+    text-indent: 15px;
     width: 320px;
     height: 40px;
+    font-size: 20px;
+    font-weight: 700;
     background: #D9D9D9;
     border-radius: 5px 0px 0px 5px;
     border: none;
@@ -325,15 +339,26 @@ input{
 button{
     width: 157px;
     height: 42px;
+    font-weight: 700;
+    font-size: 20px;
     background: #FF5959;
     border-radius: 0px 5px 5px 0px;
     border: none;
 }
+footer h1{
+    text-align: center;
+    color: #FF5959;
+    padding-top: 40px;
+    font-size: 36px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
 footer{
     background: #0B0D17;
-    height: 200px;
-    width: auto;
-    margin-top: 150px;
+    width: 100%;
+    height: 177px;
+    margin-top:160px;
 }
-
-
